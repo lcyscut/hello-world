@@ -1,6 +1,6 @@
 test1 modify on local branch readme-edits -- 1
 test2 modify on local branch readme-edits -- 2
-test3 modify on local branch readme-edits -- 3
+test3 modify on local branch readme-edits -- 30
 test4 modify on local branch readme-edits -- 4
 test5 modify on local branch readme-edits -- 5
 test6 modify on local branch readme-edits -- 6

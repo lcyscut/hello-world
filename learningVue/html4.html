@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>learning vue 4</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="app-4">
+		<ol>
+			<li v-for="todo in todos">
+				{{todo.text}}
+			</li>
+		</ol>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script type="text/javascript">
+		var app4 = new Vue({
+			el:'#app-4',
+			data:{
+				todos:[
+					{text:'hello1'},
+					{text:'hello2'},
+					{text:'hello3'}
+				]
+			}
+		});
+	</script>
+
+</body>
+</html>
